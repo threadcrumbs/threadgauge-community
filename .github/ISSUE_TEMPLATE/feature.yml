@@ -1,0 +1,26 @@
+name: Suggest a feature
+description: Something Threadgauge could do that it doesn't.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For a loose idea you'd like to talk through first, [Ideas in Discussions](https://github.com/threadcrumbs/threadgauge-community/discussions/categories/ideas) is a better fit.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The situation it comes up in. "I step away while agents run, and come back to find one has been waiting on me for an hour" is more useful than the feature on its own.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: How you picture it working on the dashboard.
+    validations:
+      required: true
+  - type: textarea
+    id: now
+    attributes:
+      label: What do you do today instead?

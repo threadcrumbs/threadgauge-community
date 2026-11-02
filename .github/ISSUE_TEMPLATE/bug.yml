@@ -1,0 +1,70 @@
+name: Report a bug
+description: Something in Threadgauge doesn't work, or shows a wrong figure.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting it. Before you paste anything, remember this issue is public: thread titles, prompts, repo names, and folder paths can be private. Remove or blur anything you don't want on the internet.
+
+        A security problem goes in [SECURITY.md](https://github.com/threadcrumbs/threadgauge-community/blob/master/SECURITY.md), not here.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you saw, and what you expected instead. For a wrong figure, say which card or panel it's on, and what the harness itself says.
+      placeholder: A Codex thread's context shows 12%, but Codex says it's at 80%.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we make it happen?
+      description: The steps, if you know them.
+  - type: input
+    id: version
+    attributes:
+      label: Threadgauge version
+      description: Run `npx @threadcrumbs/threadgauge --version`.
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      placeholder: Chrome 142
+  - type: dropdown
+    id: harnesses
+    attributes:
+      label: Which harness's threads does it involve?
+      multiple: true
+      options:
+        - Claude Code
+        - Codex
+        - OpenCode
+        - Antigravity CLI
+        - Cursor
+        - Hermes
+        - Kilo Code
+        - None of them, or I'm not sure
+  - type: input
+    id: harness-version
+    attributes:
+      label: Harness version
+      description: If it's about one harness, which version of it.
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots
+      description: Drag images in here. The camera button in the top bar, or `P`, saves a screenshot of the dashboard.
