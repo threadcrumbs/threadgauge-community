@@ -6,6 +6,7 @@ The pictures the README and docs use.
 | --- | --- | --- |
 | `threadgauge-icon.svg` | The app icon | Copied from threadgauge.io |
 | `threadgauge-icon-light.svg` | The app icon for light pages, without its dark tile | `threadgauge-icon.svg` with the tile taken out, so the black outlines carry the shape on white |
+| `threadgauge-icon-light-tight.svg` | The light icon cropped close, for places that add their own margin | `threadgauge-icon-light.svg` with its view cropped to the drawing, trail included, plus 4% |
 | `dashboard.webp`, `details.webp`, `by-repo.webp` | Screenshots of the app | The screenshot tool in the threadcrumbs.io site repo (`tools/screenshots`), which runs the app on a made-up home folder of demo threads |
 
 Every picture shows demo threads, never real ones. Re-shoot them whenever the app's look

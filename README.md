@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/threadgauge-icon-light.svg" width="96" height="96" alt="">
+  <img src="media/threadgauge-icon-light-tight.svg" height="96" alt="">
 </p>
 
 <h1 align="center">Threadgauge</h1>
