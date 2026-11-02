@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="1024" height="1024">
+  <defs>
+    <linearGradient id="tgp-shell" x1="0" y1="-50" x2="0" y2="50" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d9dfe8"/></linearGradient>
+    <radialGradient id="tgp-face" cx="-9.7" cy="-17.3" r="55" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2f4466"/><stop offset="0.6" stop-color="#141e33"/><stop offset="1" stop-color="#0b1120"/></radialGradient>
+    <linearGradient id="tgp-arc" x1="0" y1="-50" x2="0" y2="50" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d27d60"/><stop offset="1" stop-color="#b1583a"/></linearGradient>
+    <filter id="tgp-glow" x="-1" y="-1" width="3" height="3"><feGaussianBlur stdDeviation="3.2"/></filter>
+  </defs>
+  <g transform="translate(42.9 31.51) scale(0.25)">
+    <path d="M12,28 C-26,46 -70,54 -90,36 C-110,18 -98,-10 -81,-2 C-64,6 -74,34 -100,46" fill="none" stroke="#c96442" stroke-width="5.5" stroke-linecap="round"/>
+    <circle cx="-112.3" cy="49.3" r="4.6" fill="#c96442" opacity="0.8"/>
+    <circle cx="-123.8" cy="46.8" r="3.7" fill="#c96442" opacity="0.55"/>
+    <circle cx="-134.3" cy="43.8" r="2.9" fill="#c96442" opacity="0.3"/>
+    <circle r="50" fill="url(#tgp-shell)" stroke="#121319" stroke-width="3" paint-order="stroke"/>
+    <circle r="44.5" fill="#c3cbd8" stroke="#121319" stroke-width="2.4"/>
+    <circle r="42.5" fill="url(#tgp-face)"/>
+    <path d="M-34.3,-12.48 A36.5,36.5 0 0 1 -15.43,-33.08" fill="none" stroke="#fff" stroke-opacity="0.28" stroke-width="4.4" stroke-linecap="round"/>
+    <path d="M-21.21,21.21 A30,30 0 1 1 21.21,21.21" fill="none" stroke="#2f4466" stroke-width="8" stroke-linecap="round"/>
+    <path d="M-21.21,21.21 A30,30 0 0 1 21.21,-21.21" fill="none" stroke="url(#tgp-arc)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M0,0 L16.26,-16.26" stroke="#7fcfff" stroke-width="5.5" stroke-linecap="round" filter="url(#tgp-glow)" opacity="0.9"/>
+    <path d="M0,0 L16.26,-16.26" stroke="#eef8ff" stroke-width="5.5" stroke-linecap="round"/>
+    <circle r="7" fill="#e8ecf2" stroke="#121319" stroke-width="2.4" paint-order="stroke"/>
+  </g>
+</svg>
