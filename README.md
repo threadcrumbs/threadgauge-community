@@ -25,16 +25,15 @@ has changed, and how far through its plan it is.
 > **About this repo.** Threadgauge is free to use and closed source. This repo is where you report
 > bugs, ask for features and harnesses, and read the docs. The app's source code isn't here.
 
-## Release
-
-**Threadgauge isn't released yet.** To hear when it is, choose **Watch → Custom → Releases** at
-the top of this repo. On launch day, this starts it:
+## Get started
 
 ```bash
 npx @threadcrumbs/threadgauge
 ```
 
-It'll need [Node.js](https://nodejs.org) 22.13 or newer, on macOS, Windows, or Linux.
+You need [Node.js](https://nodejs.org) 22.13 or newer, on macOS, Windows, or Linux. Threadgauge
+opens in your browser at `http://localhost:5274`, and every harness you have installed shows up
+at once. To hear about new releases, choose **Watch → Custom → Releases** at the top of this repo.
 
 ## Works with
 
