@@ -3,6 +3,12 @@
 What changed in each release of Threadgauge. Run `npx @threadcrumbs/threadgauge@latest` to get
 the newest one.
 
+## 0.1.1 — November 9, 2026
+
+- **The loading screen stays dark:** it no longer shows a lighter panel behind it while it fades in.
+- **Waiting on agents is right for Claude Code:** a thread whose turn has ended while its background
+  subagents keep working now shows Waiting on agents instead of Working.
+
 ## 0.1.0 — November 9, 2026
 
 The first release.
