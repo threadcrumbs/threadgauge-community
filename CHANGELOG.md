@@ -3,6 +3,18 @@
 What changed in each release of Threadgauge. Run `npx @threadcrumbs/threadgauge@latest` to get
 the newest one.
 
+## 0.1.2 — November 10, 2026
+
+- **Long titles stay short:** a thread whose title is a whole prompt now shows only its first line,
+  up to 120 characters, and never more than two lines in the list.
+- **Activity stays compact:** a long command stays on one line, cut off with "…". Hover it or open
+  the call to see all of it.
+- **Rings you can read:** the rings beside Output, Input, Cache reads, Cache writes, and Spend are
+  now as tall as their label and number.
+- **More room in a subagent's view:** its context chart is wider, on the left, with its figures
+  beside it, so Activity and Tools start higher. When the subagent runs its thread's model, the
+  chart is colored against the same limit as the thread's.
+
 ## 0.1.1 — November 9, 2026
 
 - **The loading screen stays dark:** it no longer shows a lighter panel behind it while it fades in.
