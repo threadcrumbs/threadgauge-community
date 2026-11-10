@@ -3,6 +3,32 @@
 What changed in each release of Threadgauge. Run `npx @threadcrumbs/threadgauge@latest` to get
 the newest one.
 
+## 0.2.0 — November 10, 2026
+
+Threadgauge Pro is on sale: $29 a year, or $49 a year for the Threadcrumbs Pro Bundle with
+Threadnauts Pro, at [threadgauge.io/pro](https://threadgauge.io/pro). Everything Threadgauge shows
+stays free.
+
+- **Answer your agents:** allow or deny a permission request, pick an option or answer a question,
+  or retry after an error, in a thread's details and its Conversation.
+- **Message a thread:** send a message now or when its turn ends, and cancel one that's still
+  waiting.
+- **Stop and start agents:** stop a thread while it works, or start a new one in any folder from
+  New thread, with your own CLI and its own login.
+- **Prompts and actions:** built-in ones and your own, from More, Ctrl+K, a key you give them,
+  quick actions that fit the thread's status, and each section's actions. Choose threads in the
+  table to run one on all of them.
+- **Agents message each other:** agents in Claude Code, Codex, and Cursor can message threads in
+  any harness, under rules you set, with Deliver and Deny for the messages that wait for you. The
+  Messages section and the Message log show every one.
+- **From Threadnauts:** its Commander's prompts and actions go through Threadgauge once you let
+  it, in Settings › Agent controls.
+- **Nothing written until you turn it on:** one switch in Settings › Agent controls lists every file
+  it writes, such as Claude Code's hooks, and Undo removes them. Every answer, message, stop, and
+  start is logged, and nothing goes to an agent while its status is only a guess. The Session
+  section says how each thread is reached.
+- **On the free tier,** each Pro control says what it does, with Get Pro and "I have a key".
+
 ## 0.1.2 — November 10, 2026
 
 - **Long titles stay short:** a thread whose title is a whole prompt now shows only its first line,
