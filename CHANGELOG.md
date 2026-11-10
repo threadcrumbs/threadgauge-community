@@ -3,7 +3,7 @@
 What changed in each release of Threadgauge. Run `npx @threadcrumbs/threadgauge@latest` to get
 the newest one.
 
-## 0.1.0
+## 0.1.0 — November 9, 2026
 
 The first release.
 
