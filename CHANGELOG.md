@@ -3,6 +3,18 @@
 What changed in each release of Threadgauge. Run `npx @threadcrumbs/threadgauge@latest` to get
 the newest one.
 
+## 0.2.2 — November 10, 2026
+
+- **Install a missing CLI:** when a harness's threads are on this computer but its CLI isn't,
+  Settings › Agent controls and the composer say so, with the install command to copy and a link to
+  the vendor's install page. For Claude Code, Codex, Gemini CLI, Copilot CLI, Kilo Code, and
+  Antigravity, Install it shows the vendor's own command and where it comes from before anything
+  runs, then its progress. It's free, and it works with agent controls off. Cursor, Hermes, and
+  OpenCode link to their install pages.
+- **Found right away:** a CLI you install shows up without restarting Threadgauge.
+- **Sign in:** after an install, Sign in opens a terminal running the CLI's own login. Threadgauge
+  never sees your login.
+
 ## 0.2.1 — November 10, 2026
 
 - **Message idle Claude Code threads:** a Claude Code thread with no process running now counts as
