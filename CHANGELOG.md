@@ -3,6 +3,22 @@
 What changed in each release of Threadgauge. Run `npx @threadcrumbs/threadgauge@latest` to get
 the newest one.
 
+## 0.2.1 — November 10, 2026
+
+- **Message idle Claude Code threads:** a Claude Code thread with no process running now counts as
+  between turns for certain, so you can message it. Before, it counted as a guess.
+- **A thread open in its own app:** Send queues your message for a Claude Code thread there, and it
+  goes in when its next turn ends. Or choose Continue here to resume it in your own CLI beside the
+  open window, after a one-line confirm.
+- **Why it can't send, and the fix:** when nothing can reach a thread, the composer says why, with
+  the fix, such as turning on its hooks or closing it in its own app.
+- **Upgrade to the bundle:** with Threadgauge Pro or Threadnauts Pro, Settings › Threadcrumbs offers
+  Upgrade to the bundle, and so does the Pro dialog when your plan lacks Threadgauge Pro. It opens
+  Polar's customer portal to change your plan, and you pay only the difference. If Polar asks for a
+  payment method, add one in the portal's settings first.
+- **On [threadgauge.io/pro](https://threadgauge.io/pro):** "Already subscribed?" links to the
+  customer portal, and the FAQ says how to upgrade to the bundle.
+
 ## 0.2.0 — November 10, 2026
 
 Threadgauge Pro is on sale: $29 a year, or $49 a year for the Threadcrumbs Pro Bundle with
