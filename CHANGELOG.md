@@ -88,7 +88,7 @@ The first release.
 - **Usage limits:** Codex's 5-hour and weekly limits, in the list's footer.
 - **On a phone too:** the list sits above the details, with a bar to step between threads.
 - **Free:** everything Threadgauge shows is free. Threadgauge Pro, for answering and directing your
-  agents from Threadgauge, arrives with Threadbare.
+  agents from Threadgauge, comes next.
 - **Stays on your computer:** Threadgauge reads each harness's own files and uploads nothing about
   your threads. It answers only its own page, on your own computer.
 - **Beside Threadnauts:** the two apps share ports from 5274, start in either order, and agree on
