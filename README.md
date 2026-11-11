@@ -16,7 +16,7 @@
   <a href="https://github.com/threadcrumbs/threadgauge-community/discussions">Discussions</a>
 </p>
 
-![The Threadgauge dashboard: a card for each agent thread, with its status, current tool, context gauge, tokens, spend, lines changed, and plan](media/dashboard.webp)
+![The Threadgauge dashboard: every agent thread in one list with its status and current tool, and the selected thread's plan, context, activity, and files changed beside it](media/dashboard.webp)
 
 Threadgauge is a live dashboard of every coding-agent thread on your computer. For each one, it
 shows the tool it's running, how full its context window is, what it has cost, how much code it
@@ -46,24 +46,28 @@ at once. To hear about new releases, choose **Watch → Custom → Releases** at
 | **[Cursor](https://cursor.com)** | Status, the tool it last called, plan, and subagents. Cursor saves no tokens, context, or spend |
 | **[Antigravity CLI](https://antigravity.google)** | Status and plan |
 
-Where a harness doesn't record something, the card shows "—" instead of a guess. More in
+Where a harness doesn't record something, Threadgauge shows "—" instead of a guess. More in
 [docs/harnesses.md](docs/harnesses.md). Using another harness?
 [Ask for it](https://github.com/threadcrumbs/threadgauge-community/issues/new?template=harness.yml).
 
 ## Every thread's whole story
 
-Free, Threadgauge is the whole live dashboard: every card, the totals, grouping and filters, and
-an Open button that takes you back to any thread in its own harness. **Threadgauge Pro** adds each
-thread's details beside it: what filled its context, its context over time, its plan, every tool
-call, its subagents, the files it changed, its prompts, and its errors. Prices are at
-[threadgauge.io/pro](https://threadgauge.io/pro).
+Everything Threadgauge shows is free: the live list, the totals, grouping and filters, and each
+thread's details beside it. That's what filled its context, its context over time, its plan, every
+tool call, its subagents, the files it changed, its conversation, and its errors. Open takes you
+back to any thread in its own harness.
+
+**Threadgauge Pro** adds agent controls: answer a thread's questions and approvals, message it now
+or when its turn ends, stop and start agents, and run your own prompts and actions on one thread or
+many. Prices are at [threadgauge.io/pro](https://threadgauge.io/pro).
 
 ![A thread's details panel: its vitals, context, plan, and activity](media/details.webp)
 
 ## It stays on your computer
 
-- **It only reads.** Threadgauge reads each harness's own files on your computer, and it never
-  writes to a harness.
+- **It reads, unless you turn on more.** Threadgauge reads each harness's own files on your
+  computer. It writes to a harness only when you turn on agent controls for it, after listing every
+  file it writes, and Undo removes them.
 - **Nothing to sign up for.** There's no account and no sign-in, and Threadgauge reports nothing
   back to us.
 - **Your work stays put.** Your threads, code, and project names never leave your computer.
@@ -86,14 +90,15 @@ The details are in [docs/privacy.md](docs/privacy.md).
 ## Also from Threadcrumbs
 
 **[Threadnauts](https://threadnauts.io)** shows the same threads as little bots in a 3D colony,
-one zone for each repo, and it's out now. When both are running, each one links to the other, and a
-bot's card shows its thread's context from Threadgauge.
+one zone for each repo, and it's out now. When both are running, each one links to the other, a
+bot's card shows its thread's context from Threadgauge, and its Commander sends prompts and actions
+through Threadgauge Pro.
 
 ## License
 
 The docs, forms, and pictures in this repo are under [CC BY 4.0](LICENSE): share and adapt them,
-with credit to Threadcrumbs LLC. Threadgauge itself isn't in this repo. It will be free to use
-under its own license, which ships with the app. The names Threadgauge, Threadnauts, and
+with credit to Threadcrumbs LLC. Threadgauge itself isn't in this repo. It's free to use under its
+own license, which ships with the app. The names Threadgauge, Threadnauts, and
 Threadcrumbs, their logos, and Baut aren't licensed for reuse, except to refer to the apps.
 
 ## Credits
