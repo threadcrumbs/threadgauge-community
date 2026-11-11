@@ -3,6 +3,14 @@
 What changed in each release of Threadgauge. Run `npx @threadcrumbs/threadgauge@latest` to get
 the newest one.
 
+## 0.2.4 — November 11, 2026
+
+- **No phantom open threads:** a Claude Code session that crashed no longer looks open in its app
+  when Windows or macOS gives its process ID to another program, so a message to it goes out
+  instead of waiting for a turn end that never comes.
+- **Easier to tap:** labels in a subagent's figures, chart, and context, and the Edit links in
+  Settings' lists, take a 24 px tap.
+
 ## 0.2.3 — November 11, 2026
 
 - **Message any thread:** a Message button in each thread's header, R, Ctrl+K, and Reply on phones
