@@ -3,6 +3,24 @@
 What changed in each release of Threadgauge. Run `npx @threadcrumbs/threadgauge@latest` to get
 the newest one.
 
+## 0.2.3 — November 11, 2026
+
+- **Message any thread:** a Message button in each thread's header, R, Ctrl+K, and Reply on phones
+  open the composer. A sent message shows Sending, then Sent.
+- **Code as you type:** close a backtick for inline code, or type ``` and Shift+Enter for a code
+  block. Enter still sends the Markdown you see.
+- **Set up from where you are:** with agent controls off, Message, Respond, and Retry say so, and
+  lead to one confirm that turns them on and lists the files it writes. Settings' switches use the
+  same confirm.
+- **Fewer words:** messages and the composer match the details' text size, the composer bar wraps
+  instead of cutting off, and each note is one short line.
+- **Clearer states:** a box that can't send is dimmed and says why. Free's locked controls say what
+  they'd do, and Free's Conversation ends with a locked chat box. Stop has a label, and answer
+  options look clickable.
+- **Faster typing:** a keystroke in a 5,000-line draft takes about 12 ms, down from 107.
+- **Remove from this computer:** Settings › Threadcrumbs can take your license off this computer.
+  Free its slot in the customer portal.
+
 ## 0.2.2 — November 10, 2026
 
 - **Install a missing CLI:** when a harness's threads are on this computer but its CLI isn't,
