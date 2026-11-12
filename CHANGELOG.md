@@ -3,6 +3,31 @@
 What changed in each release of Threadgauge. Run `npx @threadcrumbs/threadgauge@latest` to get
 the newest one.
 
+## 0.2.5 — November 11, 2026
+
+- **A new message box:** one box with "+" for files and images, a mode chip, and a round Send.
+  When to send has its own line and is never cut off, at any width.
+- **Modes:**
+  - **Claude Code:** Manual, Accept edits, Plan, Auto, Don't ask, and Bypass (when your own
+    settings allow it). A thread open in Claude Code's own window takes a new mode at its next
+    permission request, and your project's own default applies until you pick one.
+  - **Codex:** Read only, Auto, or Full access (when your own config allows it).
+  - **Agents connected over ACP:** their own modes.
+- **One Send:** when a thread is open in Claude Code, Send asks once whether to add your message to
+  its queue or continue here.
+- **Full Markdown** in the conversation: headings, lists, tables, quotes, links, and code.
+- **Focus mode:** F, or the new icon in the conversation's header, gives the conversation most of
+  the window.
+- **Prompts and actions:**
+  - two plain lists in Settings and in the menu;
+  - the ones we ship are ordinary entries you can edit or delete, with Restore defaults;
+  - long lists scroll and get a filter;
+  - new: ETA for this thread, and ETA including the agents it waits on.
+- **Your plan, sooner:** a plan change in Polar shows within minutes, and Settings › Threadcrumbs
+  has Check your plan.
+- **Smaller things:** the Context section's large gauge has its tip, there are fewer duplicate
+  buttons, and setup and Undo ask first.
+
 ## 0.2.4 — November 11, 2026
 
 - **No phantom open threads:** a Claude Code session that crashed no longer looks open in its app

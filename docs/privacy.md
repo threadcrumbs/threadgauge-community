@@ -5,11 +5,11 @@ your browser. There's no account and no sign-in.
 
 | | |
 | --- | --- |
-| **Reads** | Your harnesses' own session records and transcripts |
-| **Writes** | Nothing, until you enter a Pro license key. Then it writes the license to `license.json` in the shared Threadcrumbs folder. With agent controls on, it keeps its own `agent-controls` folder there: a log of every answer, message, stop, and start, your saved prompts and actions, and its settings. Your dashboard choices are kept in your browser |
+| **Reads** | Your harnesses' own session records and transcripts, your Claude Code and Codex settings to show each thread's mode, and, when you add a file to a message, the names of the files in that thread's folder |
+| **Writes** | Nothing, until you enter a Pro license key. Then it writes the license to `license.json` in the shared Threadcrumbs folder. With agent controls on, it keeps its own `agent-controls` folder there: a log of every answer, message, stop, and start, your saved prompts and actions, its settings, and images you add to a message, which it deletes after 7 days. Your dashboard choices are kept in your browser |
 | **Writes to a harness** | Only when you turn on agent controls for it, after listing every file it writes, such as Claude Code's hooks in its `settings.json`. Messages between agents adds an entry to each harness's MCP settings. Undo removes them, and leaves only the log and your saved prompts and actions |
 | **Runs** | Only when you ask: a missing harness's install command from its vendor, shown before it runs, and a terminal for that harness's own sign-in |
-| **Sends** | Nothing, without Pro. With Pro: your license key and a random ID for this computer when you activate, then the license itself, to renew it about once a week |
+| **Sends** | Nothing, without Pro. With Pro: your license key and a random ID for this computer when you activate, then the license itself, to renew it about once a week, and sooner when it starts after an hour or more, when you come back from Polar, or when you choose Check your plan |
 | **Never sends** | Your threads, code, prompts, or project names. There's no telemetry |
 
 The Threadcrumbs folder is `%APPDATA%\Threadcrumbs` on Windows,
