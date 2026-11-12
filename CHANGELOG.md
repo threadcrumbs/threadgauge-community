@@ -3,6 +3,29 @@
 What changed in each release of Threadgauge. Run `npx @threadcrumbs/threadgauge@latest` to get
 the newest one.
 
+## 0.2.6 — November 12, 2026
+
+- **Your messages reach agents sooner:** a message you queue goes in at the agent's next step, or
+  right away when it's idle or only waiting on background agents, the way Claude Code's own queue
+  works. A thread open in Claude Code's window gets it at its next tool call. If the app closes or
+  a run is cut short, Threadgauge continues the thread with what was waiting. The queued row says
+  when it goes in. After updating, Settings › Agent controls asks you to Set up again once.
+- **Modes mid-turn:** a mode you pick while Threadgauge runs the thread applies at once. In Claude
+  Code's own window it applies at your next Allow, and the chip says so.
+- **Rename a thread:** the pencil after its title. Threadnauts shows the same name, and clearing it
+  brings back the agent's own title.
+- **Copy code:** every code block in the conversation has a copy button.
+- **Paste screenshots** straight into the message box.
+- **Narrow windows:** opening the conversation collapses the list and puts the details in one
+  column beside it; `[` switches to the list with the conversation over the details.
+- **Focus mode stays** as you left it when you close and reopen the conversation, reload, or switch
+  threads.
+- **Details stay current:** a finished plan no longer shows as current after a new prompt, the
+  header always shows the latest prompt, and many open Threadgauge tabs no longer freeze the
+  details.
+- **Open Threadnauts** from Baut in the header while it's running.
+- **Smaller things:** no "Sent to" toast, and long prompts in any language send.
+
 ## 0.2.5 — November 11, 2026
 
 - **A new message box:** one box with "+" for files and images, a mode chip, and a round Send.
